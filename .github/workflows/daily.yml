@@ -5,7 +5,7 @@ on:
 
 jobs:
   Daily:
-    runs-on: self-hosted
+    runs-on: ubuntu-latest
     steps:
       - name: Check for IsJWT Secret
         id: IsJWT
